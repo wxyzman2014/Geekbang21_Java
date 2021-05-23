@@ -1,0 +1,12 @@
+改动说明
+
+myfilter.ProxyBizRequestFilter
+创建过滤器，增加xjava:wuxingyu的header
+
+myhttpserver.BackendServer8801
+myhttpserver.BackendServer8802
+创建2个客户端，请求8888，nettyserver随机路由到某台后端机器返回
+服务器解析http请求，并返回httpResponse，内容中附带host
+
+myhttpclient.HttpClientHelper
+第二周的httpClient
