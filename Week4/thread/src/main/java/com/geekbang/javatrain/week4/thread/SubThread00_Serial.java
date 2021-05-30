@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
  *
  * 一个简单的代码参考：
  */
-public class Homework03 {
+public class SubThread00_Serial {
     
     public static void main(String[] args) {
         
